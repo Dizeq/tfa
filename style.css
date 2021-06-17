@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    
+    
+}
+body{
+    font-family: 'Saira Stencil One', cursive;
+}
+.slide1{
+    
+    background: url("./assets/slide1.gif") center no-repeat; 
+    background-size:120%;
+    min-height: 1024px;
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    position:absolute;
+}
+#logo img{
+    width:100%; 
+    height: 100%;
+    padding: 10vh 0 0 10vh;
+}
+h1{
+    font-size: 64px;
+    float: left;
+    margin-top: 55vh;
+    margin-left: 10vh;
+    text-align: left;
+    
+}
+#h2slide1{
+    font-size: 45px;
+    float: left;
+    margin-top: 65vh;
+    margin-left: 10vh;
+    text-align: center;
+    vertical-align: top;
+    position:absolute;
+}
+h2{
+    padding-top: 5vh;
+    font-size: 45px;
+    text-align: center;
+}
+.card-title{
+    font-size: 24px;
+}
+#tickets{
+    text-align: left;
+    padding-left: 6vh;
+}
+hr{
+     color: #ffffff;
+     width: 100%;
+     border: none;
+}
+.tickets{
+    text-align: left;
+}
+.tickets p {
+    padding-top: 8vh;
+    font-size: 24px;
+}
+.gettickets{
+    margin-top: 70px;
+}
+nav{
+    margin-left: 800px;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    margin-right: 175px;
+    font-size: 24px;
+    padding-top: 50px;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.slide2{
+    
+    background: url("./assets/DQ-Background.jpg") center center no-repeat;
+    background-size: 100%;
+    min-height: 1024px;
+    height: 100%;
+    width: 100%;
+}
+
+.friday{
+    grid-column: 1 / 3;
+}
+.saturday{
+    grid-column: 2 / 3;
+}
+.sunday{
+    grid-column: 3 / 3;
+}
+.slide3{
+    background-color: #38312D;
+    height: 1020px;
+}
+.card-transparent{
+    background-color: rgba(216, 1, 1, 0);
+    margin-left: 250px;
+    
+}
+.card-img-top{
+    width: 187px;
+    height: 215px;
+}
+.card-group{
+    
+    text-align: center;
+   
+}
+.card-title{
+    line-height: 5vh;
+}
+.card-group ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 4vh;
+    line-height: 3vh;
+    font-size: 20px;
+
+}
+.partners{
+    margin: 40px 80px 20px 80px;
+    width: 120px;
+    
+}
+#partners{
+    text-align: center;
+}
+.slide4{
+    
+    background: url("./assets/DQ-Background1.jpg") center center no-repeat;
+    background-size: 100%;
+    min-height: 1024px;
+    height: 100%;
+    width: 100%;
+}
+#map{
+    height: 372px;
+    width: 100%;
+    position: absolute;
+}
+.square{
+    padding: 70px 0px 0px 200px;
+}
+ #info{
+     
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 36px;
+    background-color: white;
+    color: black;
+    box-shadow: midnightblue;
+    height: 237px;
+    width: 393px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
+    padding-top: 8vh;
+
+}
+.info{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 6vh;
+    list-style-type:none;
+}
+.map{
+    padding-top: 10vh;
+}
